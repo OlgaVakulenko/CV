@@ -43,7 +43,6 @@ body{
     line-height: 49px;
     text-transform: uppercase;
     font-weight: 500;
-    /* opacity: 0.9; */
 }
 .header-title>.position{
     font-size: 18px;
@@ -147,7 +146,7 @@ body{
 
 .marked-list{
     margin-top: 22px;
-    list-style: disc;
+    list-style: url('../img/check.svg');
     list-style-position: inside;
 }
 .marked-list>li{
@@ -307,9 +306,9 @@ body{
 
 }
 .columns-3{
-    column-count: 3;
-    padding: 10px 0;
-    list-style: url(img/dash.svg) inside;
+    column-count: 2;
+    padding: 10px;
+    list-style: url('img/check.svg') inside;
 }
 .list-item-title{
     font-size: 18px;
