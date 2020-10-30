@@ -185,8 +185,7 @@ body{
 /*left-col*/
 .marked-list{
     margin-top: 22px;
-    list-style: url('../img/check.svg');
-    list-style-position: inside;
+    list-style: url('../img/check.svg') inside;
 }
 .marked-list.duties>li{
     line-height: 23px;
@@ -200,6 +199,7 @@ body{
 .skills>.marked-list>li{
     line-height: 1.8;
     font-size: 16px;
+    list-style: url('../img/check.svg') inside;
 }
 .skills>.marked-list>li:hover{
     transform: scale(1.1);
