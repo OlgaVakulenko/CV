@@ -185,7 +185,7 @@ body{
 /*left-col*/
 .marked-list{
     margin-top: 22px;
-    list-style: url('../img/check.svg') inside;
+    list-style: url('img/check.svg') inside;
 }
 .marked-list.duties>li{
     line-height: 23px;
