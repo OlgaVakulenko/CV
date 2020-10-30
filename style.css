@@ -184,7 +184,6 @@ body{
 
 /*left-col*/
 .marked-list{
-    display: list-item;
     margin-top: 22px;
     list-style: url('../img/check.svg') inside;
 }
