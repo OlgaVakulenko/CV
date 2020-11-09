@@ -354,13 +354,18 @@ body{
     font-size: 13px;
     line-height: 1.5;
     color: #47646f
-
 }
 .columns-3{
     column-count: 2;
     padding: 10px;
     padding-left: 20px;
     list-style: url('img/check.svg') outside;
+}
+.columns-1{
+    column-count: 1;
+    padding: 10px;
+    padding-left: 20px;
+    list-style: disc outside;
 }
 .list-item-title{
     font-size: 18px;
@@ -794,11 +799,11 @@ body{
         font-weight: 600;
     }
     .left-col{
-        width: calc(40% - 30px);
+        width: calc(50% - 30px);
         margin-right: 30px;
     }
     .right-col{
-        width: calc(100% - 40%);
+        width: calc(100% - 50%);
     }
     .section {
         margin-bottom: 15px;
@@ -811,13 +816,15 @@ body{
 
      /*left-col*/
     .section.i-am.print-version>.section-title {
-        margin-bottom: -4px;
+        margin-bottom: -7px;
+        margin-top: -12px;
     }
     .summary-text {
         padding: 5px;
         text-indent: 20px;
         border-top: 1px solid #c3ccd3;
         font-size: 13px;
+        border-radius: 0;
     }
     .marked-list.duties>li{
         line-height: 16px;
@@ -866,11 +873,24 @@ body{
        display: none;
     }
     /*right col*/
+    .section.expirience.print-version>.section-title {
+        margin-bottom: 0;
+        margin-top: -12px;
+    }
+    .section.expirience.print-version>.right-col-item {
+        border-top: 1px solid #c3ccd3;
+        display: flex;
+        margin-bottom: 20px;
+    }
     .section.projects.print-version>.section-title {
         margin-bottom: 5px;
     }
     .section.projects.print-version>.right-col-item.first {
         border-top: 1px solid #c3ccd3;
+    }
+    .section.expirience.print-version>.right-col-item>.left-side{
+        margin-right: 5%;
+        width: 35%;
     }
     .right-col-item {
         margin-bottom: 0;
