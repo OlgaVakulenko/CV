@@ -751,6 +751,9 @@ body{
         width: 45%;
         margin-left: 30px;
     }
+    .header-title{
+        color: #0c4245;
+    }
     .header-title>.name{
         font-size: 26px;
         line-height: 42px;
@@ -765,6 +768,19 @@ body{
     }
     .contact-option {
         font-size: 11px;
+    }
+    .contact-option-link:link,
+    .contact-option-link:visited,
+    .contact-option span {
+        color: #0c4245;
+    }
+    .contact-option-icon,
+    .contact-option-icon>circle,
+    .contact-option-icon>line {
+        stroke: #398083;
+    }
+    .contact-option-icon>path {
+        fill: #398083;
     }
     .photo{
         width: 160px;
